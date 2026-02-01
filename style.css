@@ -232,3 +232,14 @@ footer{
   flex-wrap:wrap;
   align-items:center;
 }
+
+/* Mobile polish */
+@media (max-width: 640px) {
+  .link-btn {
+    padding: 12px 16px;
+  }
+
+  .cta.secondary {
+    padding: 12px 18px;
+  }
+}
