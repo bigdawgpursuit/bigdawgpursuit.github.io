@@ -3,37 +3,113 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Big Dawg Pursuit, LLC| Drone Services</title>
+  <title>Big Dawg Pursuit | Drone Services</title>
+  <meta name="description" content="Big Dawg Pursuit provides professional drone services across Surry, Suffolk, Virginia Beach, Smithfield, the Eastern Shore of Virginia, and Pungo." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Big Dawg Pursuit | Drone Services" />
+  <meta property="og:description" content="Professional drone services • fast turnaround • clean deliverables" />
+  <meta property="og:type" content="website" />
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Big Dawg Pursuit, LLC</h1>
-  <p>Professional, FAA-compliant drone services</p>
-  <a class="cta" href="mailto:bigdawgpursuit@gmail.com">Contact</a>
+<header class="hero">
+  <div class="container">
+    <div class="badge">Big Dawg Pursuit, LLC</div>
+    <h1>Drone Services</h1>
+    <p class="subtitle">Clean deliverables • fast turnaround • professional ops</p>
+
+    <div class="cta-row">
+      <a class="cta" href="mailto:chrisvela@bigdawgpursuit.com?subject=Drone%20quote%20request&body=Hi%20Big%20Dawg%20Pursuit,%0A%0AProject%20type:%20%0ALocation:%20%0ADesired%20date:%20%0ADeliverables:%20%0A%0AThanks!">
+        Email for a quote
+      </a>
+      <a class="cta secondary" href="#portfolio">See work</a>
+    </div>
+
+    <div class="service-area">
+      <div class="service-area-title">Service area</div>
+      <div class="chips">
+        <span class="chip">Surry</span>
+        <span class="chip">Suffolk</span>
+        <span class="chip">Virginia Beach</span>
+        <span class="chip">Smithfield</span>
+        <span class="chip">Eastern Shore of Virginia</span>
+        <span class="chip">Pungo, VA</span>
+      </div>
+    </div>
+  </div>
 </header>
 
-<section>
-  <h2>Services</h2>
-  <ul>
-    <li>Aerial photo & video</li>
-    <li>Land & property footage</li>
-    <li>Inspections & mapping</li>
-  </ul>
-</section>
+<main>
+  <section class="container section">
+    <h2>What I do</h2>
+    <ul class="checklist">
+      <li>Aerial photo & video</li>
+      <li>Property / land footage</li>
+      <li>Inspections & documentation</li>
+      <li>Project-specific deliverables (as requested)</li>
+    </ul>
 
-<section>
-  <h2>About</h2>
-  <p>
-    Big Dawg Pursuit provides professional drone services with fast turnaround,
-    clean deliverables, and FAA Part 107 compliance.
-  </p>
-</section>
+    <div class="callout">
+      <strong>Best contact:</strong> email.
+      <span class="muted"> I’ll reply with timeline + a clear quote.</span>
+    </div>
+  </section>
+
+  <section id="portfolio" class="container section">
+    <h2>Portfolio</h2>
+    <p class="muted">Latest uploads from the channel. Click any video to watch full-screen.</p>
+
+    <!-- Auto-embeds your channel's uploads playlist (no manual updates needed) -->
+    <div class="video-wrap">
+      <iframe
+        src="https://www.youtube.com/embed/videoseries?list=UUPZhgeaGEke_8_jIwL7N-6w"
+        title="Big Dawg Pursuit - YouTube uploads"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="links-row">
+      <a class="link-btn" href="https://www.youtube.com/channel/UCPZhgeaGEke_8_jIwL7N-6w" target="_blank" rel="noopener">YouTube</a>
+      <a class="link-btn" href="https://www.instagram.com/bigdawgpursuit/" target="_blank" rel="noopener">Instagram</a>
+      <a class="link-btn" href="https://x.com/bigdawgpursuit" target="_blank" rel="noopener">X</a>
+      <a class="link-btn" href="https://www.facebook.com/profile.php?id=100093471015577" target="_blank" rel="noopener">Facebook</a>
+      <a class="link-btn" href="https://www.linkedin.com/in/christopher-vela-7075272a6/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="link-btn" href="https://www.reddit.com/user/bigdawgpursuit/" target="_blank" rel="noopener">Reddit</a>
+    </div>
+  </section>
+
+  <section class="container section">
+    <h2>Request a quote</h2>
+    <p class="muted">Send a quick email with location + what you want delivered. I’ll respond with options and a timeline.</p>
+
+    <div class="quote-card">
+      <div class="quote-line"><span>Project type:</span> (aerial video / inspection / land footage / other)</div>
+      <div class="quote-line"><span>Location:</span></div>
+      <div class="quote-line"><span>Desired date:</span></div>
+      <div class="quote-line"><span>Deliverables:</span> (edited video, raw clips, photos, etc.)</div>
+
+      <a class="cta" href="mailto:chrisvela@bigdawgpursuit.com?subject=Drone%20quote%20request&body=Hi%20Big%20Dawg%20Pursuit,%0A%0AProject%20type:%20%0ALocation:%20%0ADesired%20date:%20%0ADeliverables:%20%0A%0AThanks!">
+        Email now
+      </a>
+    </div>
+  </section>
+</main>
 
 <footer>
-  <p>Email: <a href="mailto:bigdawgpursuit@gmail.com">bigdawgpursuit@gmail.com</a></p>
+  <div class="container footer">
+    <div>© <span id="y"></span> Big Dawg Pursuit, LLC</div>
+    <div><a href="mailto:chrisvela@bigdawgpursuit.com">chrisvela@bigdawgpursuit.com</a></div>
+  </div>
 </footer>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
