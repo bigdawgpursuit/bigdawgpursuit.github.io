@@ -172,13 +172,26 @@ h2{
   margin-top:16px;
 }
 
-.link-btn{
-  display:inline-block;
-  padding:10px 12px;
-  border:1px solid #334155;
-  border-radius:10px;
-  text-decoration:none;
-  color:var(--text);
+.link-btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+
+  color: var(--text);
+
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(20, 184, 166, 0.35);
+
+  backdrop-filter: blur(6px);
+  transition: all 0.2s ease;
+}
+
+.link-btn:hover {
+  background: rgba(20, 184, 166, 0.12);
+  border-color: var(--secondary);
+  transform: translateY(-1px);
 }
 
 .quote-card{
