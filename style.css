@@ -339,3 +339,25 @@ footer{
     justify-content: flex-start;
   }
 }
+/* Google Business Profile links */
+.gbp-link,
+.gbp-about a {
+  color: var(--muted);
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.gbp-link:hover,
+.gbp-about a:hover {
+  color: var(--secondary);
+}
+
+.footer-gbp {
+  margin-top: 6px;
+}
+
+.gbp-about {
+  margin-top: 10px;
+  color: var(--muted);
+}
